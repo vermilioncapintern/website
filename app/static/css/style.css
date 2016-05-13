@@ -1,0 +1,93 @@
+* {
+    list-style: none;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box; 
+}
+
+header {
+    color: #FFFFFF;
+}
+
+header div.icon {
+    padding: 0;
+}
+
+header div.icon p {
+    text-align: center;
+    margin: 0;
+}
+
+header div.icon p img {
+
+}
+
+header div.navigator {
+    margin: 1em 0;
+}
+
+header div.navigator ul {
+    padding: 0;
+   align-items: center;
+}
+
+header div.navigator ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+}
+
+header div.navigator ul li a{
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+}
+
+header div.navigator ul li a:hover{
+    color: crimson;
+}
+
+
+/* THE VERMILION HOMEPAGE */
+
+section.divider-image {
+    padding: 0;
+    margin: 0;
+}
+
+section.divider-image img{
+    padding: 0;
+    margin: 0;
+}
+
+section.brief-description {
+    padding: 0;
+    margin: 0;
+}
+
+section.brief-description p{
+    text-align:justify;
+    padding: 0 2em;
+    margin: 2em 0;
+}
+
+section.view-request p{
+    margin: 2em 0;
+}
+
+section.social p{
+    margin: 2em 0;
+}
+
+
+/* THE ABOUT PAGE */
+
+/* PRODUCTS */
+
+
+
+/* TEAM */
+
+/* SAMPLE RESEARCH */
+
+/* CONTACT */

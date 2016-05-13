@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- CSS Files and Plugins -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- JS Files and Plugins -->   
+  
+
+    
+    <!-- for controlling the viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    <title>Vermilion Capital</title>
+    
+    
+    
+    
+</head>
+<body>
+
+    <div class="container">
+        
+        <!-- Header -->    
+        <header class="row bg-primary" style="margin:0;">
+            <div class="icon col-xs-12 col-sm-4 bg-success">
+                <p class="bg-warning">
+                    <img class="bg-danger" src="{{ url_for('static', filename="img/logo.jpg") }}" width="240">
+                </p>
+            </div>
+            <div class="navigator col-xs-12 col-sm-8 bg-success">
+                <ul>
+                    <li class="col-xs-12 col-sm-3 bg-warning"><a href="#">ABOUT VERMILION</a></li>
+                    <li class="col-xs-12 col-sm-2 bg-warning"><a href="#">PRODUCTS</a></li>
+                    <li class="col-xs-12 col-sm-2 bg-warning"><a href="#">TEAM</a></li>
+                    <li class="col-xs-12 col-sm-3 bg-warning"><a href="#">SAMPLE RESEARCH</a></li>
+                    <li class="col-xs-12 col-sm-2 bg-warning"><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="row divider-image bg-primary" style="margin:0;">
+            <img class="col-xs-12" src="{{ url_for('static', filename="img/homemain.jpg") }}">
+        </section>
+        <section class="row brief-description bg-primary" style="margin:0;">
+            <p>Vermilion delivers timely, actionable, and unique technical research to professional investors through the application of our technical discipline. We believe our research methodology, which is not limited by industry sector or market capitalization, enables our team to deliver superior investment recommendations to our clients. Vermilion produces both U.S. and international, local currency, technical research.</p>
+        </section>
+        <section class="row view-request bg-primary" style="margin:0;">
+            <p style="text-align:center;"><button type="button" class="btn btn-default">View Research</button>
+            <button type="button" class="btn btn-default">Request a Trial</button>
+            </p>
+        </section>
+        <section class="row social bg-primary" style="margin:0;">
+            <p style="text-align:center;"><button type="button" class="btn btn-default">Twitter</button></p>
+        </section>
+    </div>
+    
+    
+    
+    
+    
+</body>
+</html>
