@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- CSS Files and Plugins -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- JS Files and Plugins -->   
+  
+
+    
+    <!-- for controlling the viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    <title>Vermilion Capital</title>
+    
+    
+    
+    
+</head>
+<body id="bootstrap-override">
+
+
+    <div id="container-2" class="container">
+        
+        <!-- Header -->    
+        <header class="header row">
+            
+            <nav class="navbar navbar-default ">
+                <div class="container-fluid">
+                    
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class=" collapser navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                           <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                        </button>
+                         <a class="logo navbar-brand" href="#"><img src="{{ url_for('static', filename="img/logo.jpg") }}" width="240"></a>
+                    </div>
+
+                    <!-- Collect tenav links, fors, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="nav-collapse">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="#" id="about-link">ABOUT VERMILION</a></li>
+                            <li><a  href="#" id="product-link">PRODUCTS</a></li>
+                            <li><a href="#" id="team-link">TEAM</a></li>
+                            <li><a href="#" id="sample-link">SAMPLE RESEARCH</a></li>
+                            <li><a href="#" id="contact-link">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        
+        <section class="row divider-image bg-primary" style="margin:0;">
+            <img style="padding: 0;" class="col-xs-12" src="{{ url_for('static', filename="img/homemain.jpg") }}">
+        </section>
+    
+        <section class="row brief-description">
+            <p class="col-xs-10 col-xs-offset-1">Vermilion delivers timely, actionable, and unique technical research to professional investors through the application of our technical discipline. We believe our research methodology, which is not limited by industry sector or market capitalization, enables our team to deliver superior investment recommendations to our clients. Vermilion produces both U.S. and international, local currency, technical research.</p>
+        </section>
+        <section class="row view-request ">
+            <button style="margin-right: 2px;" type="button" class="btn btn-default col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2">View Research</button>
+            <button style="margin-left: 2px;" type="button" class="btn btn-default col-xs-5 col-sm-4">Request a Trial</button>
+        </section>
+        <section class="twitter-btn">
+                <p style="text-align: center;"><a href="https://twitter.com/VtrResearch" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VtrResearch</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>    
+        </section>
+
+    </div>
+    
+    
+    
+    
+    
+</body>
+</html>
+

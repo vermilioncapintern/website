@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <!-- CSS Files and Plugins -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+    <!-- JS Files and Plugins -->   
+  
+
+    
+    <!-- for controlling the viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    
+    <title>Vermilion Capital</title>
+    
+    
+    
+    
+</head>
+<body id="bootstrap-override">
+
+
+    <div id="container-2" class="container">
+        
+        <!-- Header -->    
+        <header class="header row">
+            
+            <nav class="navbar navbar-default ">
+                <div class="container-fluid">
+                    
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class=" collapser navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+                           <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                        </button>
+                         <a class="logo navbar-brand" href="#"><img src="{{ url_for('static', filename="img/logo.jpg") }}" width="240"></a>
+                    </div>
+
+                    <!-- Collect tenav links, fors, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="nav-collapse">
+                        <ul id="nav" class="nav navbar-nav">
+                            <li><a href="#" id="about-link">ABOUT VERMILION</a></li>
+                            <li><a  href="#" id="product-link">PRODUCTS</a></li>
+                            <li><a href="#" id="team-link">TEAM</a></li>
+                            <li><a href="#" id="sample-link">SAMPLE RESEARCH</a></li>
+                            <li><a href="#" id="contact-link">CONTACT</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+
+        
+        <section class="row divider-image bg-primary" style="margin:0;">
+            <img style="padding: 0;" class="col-xs-12" src="{{ url_for('static', filename="img/homemain.jpg") }}">
+        </section>
+    
+        <section class="row products">
+            <h3>Products</h3>
+            <p>Vermilion’s technical research provides professional investors with an in-depth, technical analysis of equity market drivers for both U.S. and international markets. Products are based on constructing, tracking, and ranking sectors, industry groups, and stocks. Our group work research is among the most robust in the industry and contains no survivorship bias.</p>
+            <div id="productGroup">
+                <p class="product-buttons"><button data-toggle="collapse" data-target="#us" data-parent="#productGroup" type="button" class="btn btn-default">U.S. Equity</button>
+                <button  data-toggle="collapse" data-target="#international" data-parent="#productGroup" type="button" class="btn btn-default">International</button>
+                </p>
+                <div class="accordion-group">
+                    <div id="us" class="collapse">
+                        <h4>U.S. Equity Research</h4>
+                        <p><b>Vermilion Macro Vision</b> is a comprehensive, action-oriented, macro-themed book which provides institutional investors critical investment data, including:</p>
+                        <ul>
+                            <li>An examination of the current technical condition of our 12 sectors and corresponding industry groups.</li>
+                            <li>Proprietary technical ranking screens for each of our covered sectors and groups.</li>
+                            <li>Detailed charts and commentary regarding the current state of the market health, in relation to breadth statistics, commodity/currency movements, interest rate direction, and global market forces.</li>
+                            <li>Vermilion Macro Vision is published every 5-6 weeks.</li>
+                        </ul>
+                        <p>The <b>Insights</b> provides timely equity sector and group opportunities for institutional investors. Ideas are generated through the use of proprietary screens and a comprehensive review of individual graphs. Our ideas are selected on the basis of significant trend inflections, increasing the likelihood for immediate performance. Subscribers receive timely, periodic publications containing graphs and technical commentary for every highlighted group and company mentioned.</p>
+                        <p>In our <b>Vermilion Vital Signs</b>, we rank the most positive and negative U.S. stocks, filter the symbols by market-cap and trading volume, and then divide the companies into sectors and groups. We then manually look through charts of the filtered names for technical significance: breakouts/breakdowns, sector/group themes, relative strength leadership/changes, bottoms-up, short-term patterns that may have long-term significance, etc. This product offers insights, as significant price and relative moves begin in the daily charts.</p>
+                        <p>Our <b>Compass</b> service provides weekly analysis of over 3,000 stocks broken-down by sector and chart cycle. We characterize stocks as being in one of the following seven cycles, each explained in detail in every publication:</p>
+                        <p>Bottom-fishing - Pullback to Support - Up-trends</p>
+                        <p>Basing Momentum - Deterioration - Down-trends - Short Ideas</p>
+                        <p>The <b>Navigator</b> database product is a comprehensive technical appraisal of 12 sectors, 526 industry groups, and 5,500 stocks we track on a weekly basis. The output generated by the Vermilion Navigator serves as a roadmap for institutional investors, providing a clear, digestible understanding the market’s internal drivers, and enabling portfolio managers make better portfolio allocation decisions. The Navigator contains several sections, including:</p>
+                        <ul>
+                                <li>Market internals: Relative and absolute highs/lows, sector/group/stock performance rankings, model portfolio performance.</li>
+                                <li>Relative Strength Rank (RSR): our proprietary technical ranking methodology applied to 12 sectors, 510 industry groups and over 5,500 stocks. Rankings are presented at the sector, group, and individual stock level.</li>
+                        </ul>
+                        <p>The <b>ETF Pathfinder</b> is similar in format to our current Macro Vision product, but is unique in its singular focus on ETFs. The ETF Pathfinder offers a comprehensive technical appraisal of the ETF universe. In addition the Pathfinder provides a relative strength ranking (RSR) by sector and asset class, a sector overview, and selected ETF Charts of Interest where we highlight the most technically significant ETF charts along with a constituent chart to help investors identify significant trends and their component drivers.</p>
+                    </div>
+                    <div id="international" class="collapse">
+                        <h4>International Research Products</h4>
+                        <p>The <b>International Insights</b> provides timely equity sector and group opportunities for international and global investors. Ideas are generated through the use of proprietary screens and a comprehensive review of individual graphs. Our ideas are selected on the basis of significant trend inflections, increasing the likelihood for immediate performance. Clients receive timely, periodic publications containing graphs and technical commentary for every highlighted group and company mentioned.</p>
+                        <p>In our <b>International Vital Signs</b>,we rank the most positive and negative international stocks, filter the symbols by market-cap and trading volume, and then divide the companies into sectors and groups. We then manually look through charts of the filtered names for technical significance: breakouts/breakdowns, sector/group themes, relative strength leadership/changes, bottoms-up, short-term patterns that may have long-term significance, etc. This product offers insights, as significant price and relative moves begin in the daily charts.</p>
+                        <p>Our <b>International Compass</b> provides weekly analysis of over 3,000 stocks broken-down by sector and chart cycle. We characterize stocks as being in one of the following seven cycles, each explained in detail in every publication:</p>
+                        <p>Bottom-fishing - Pullback to Support - Up-trends</p>
+                        <p>Basing Momentum - Deterioration - Down-trends - Short Ideas</p>
+                        <p>The <b>International Navigator</b> database product is a comprehensive technical appraisal of 12 sectors, 526 industry groups, and 3,000 international stocks we track on a weekly basis. The output generated by the International Navigator serves as a roadmap for institutional investors, providing a clear, digestible understanding the internal drivers across the world’s equity markets, and enabling portfolio managers make better portfolio allocation decisions. The International Navigator contains several sections, including:</p>
+                        <ul>
+                            <li>Market internals: Relative and absolute highs/lows, sector/group/stock performance rankings, model portfolio performance.</li>
+                            <li>Relative Strength Rank (RSR): our proprietary technical ranking methodology applied to 12 sectors, 526 industry groups and over 3,000 international stocks. Rankings are presented at the sector, group, and individual stock level.</li>
+                        </ul>
+                    </div>
+                </div>    
+            </div>    
+            <script>
+                var $productGroup = $('#productGroup');
+                    $productGroup.on('show.bs.collapse','.collapse', function() {
+                    $productGroup.find('.collapse.in').collapse('hide');
+                });
+            </script>
+        </section>
+        <section class="row view-request">
+            <button style="margin-right: 2px;" type="button" class="btn btn-default col-xs-5 col-xs-offset-1 col-sm-4 col-sm-offset-2">View Research</button>
+            <button style="margin-left: 2px;" type="button" class="btn btn-default col-xs-5 col-sm-4">Request a Trial</button>
+        </section>
+        <section class="twitter-btn">
+                <p style="text-align: center;"><a href="https://twitter.com/VtrResearch" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @VtrResearch</a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>    
+        </section>
+
+    </div>
+    
+    
+    
+    
+    
+</body>
+</html>
+
